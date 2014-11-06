@@ -1,7 +1,9 @@
 /**
  * @author Bluekiss
  */
-var bluekiss=angular.module('bluekiss',['ng-route']);
+
+'use strict';
+var bluekiss=angular.module('bluekiss',['ngRoute','controllers']);
 
 bluekiss.config(['$routeProvider',
   function($routeProvider) {
